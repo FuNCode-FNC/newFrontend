@@ -1,0 +1,33 @@
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 110px;
+  padding-bottom: 70px;
+}
+
+.sectionAlbum {
+  padding-top: 70px;
+}
+
+.btnPage {
+  color: white;
+  background-color: orange;
+  cursor: pointer;
+  border:  2px solid green;
+}
+
+.btnWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 110px;
+}
+
+.kk {
+  display: flex;
+  align-items: flex-end;
+  font-size: 36px;
+  line-height: 100%;
+  padding: 0 10px;
+  color: white;
+}

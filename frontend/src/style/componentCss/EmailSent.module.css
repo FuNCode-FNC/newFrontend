@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 250px;
+  background: #0A1627;
+  height: 84vh;
+}
+
+.email {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+}
+
+.emailTitle {
+  margin-bottom: 40px;
+  font-size: 45px;
+  line-height: 54px;
+}
+
+.titleText {
+  display: inline;
+  padding-right: 15px;
+}
+
+.toEmail {
+  font-size: 50px;
+  line-height: 100%;
+}
+
+.emailTitle,
+.toEmail,
+.emailDiscription {
+  color: #E3DEDE;
+  text-align: center;
+}
+
+.emailDiscription {
+  width: 610px;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.textDiscription {
+  margin: 0;
+}

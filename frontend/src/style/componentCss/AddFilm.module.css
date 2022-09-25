@@ -1,0 +1,81 @@
+.container {
+  background: #0A1627;
+  padding: 0 95px 100px;
+}
+
+.title {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  color:#E3DEDE;
+}
+
+.formBlock {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 53px;
+}
+
+.formBlock:last-child {
+  flex-direction: column;
+  margin: 0;
+}
+
+.input {
+  width: 600px;
+  height: 50px;
+}
+
+.formItem {
+  margin-right: 50px;
+}
+
+.textarea {
+  padding-top: 22px;
+  padding-left: 17px;
+  width: 800px;
+  min-height: 180px;
+  margin-bottom: 100px;
+  border-radius: 6px;
+  resize: none;
+}
+
+.btnBlock,
+.teaxtareaBlock {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 6px;
+  border: none;
+  background: #E3DEDE;
+  color:#87201D;
+  padding: 10px 42px;
+  cursor: pointer;
+}
+
+.label {
+  position: absolute;
+  top: 13px;
+  left: 17px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #962926;
+}
+
+.blockField {
+  position: relative;
+}
+
+.input {
+  padding-left: 200px;
+  border-radius: 6px;
+  color: #0A1627;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.formItem .blockField:not(:last-child) {
+  margin-bottom: 30px;
+}

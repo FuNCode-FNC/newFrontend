@@ -1,0 +1,89 @@
+.mainContainer {
+  display: flex;
+  width: 100%;
+}
+
+.section {
+  padding: 0 60px;
+  padding-bottom: 67px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  user-select: none;
+}
+
+.item {
+  width: 25%;
+  background-color: green;
+}
+
+.item:not(:last-child) {
+  margin-right: 90px;
+}
+.item:last-child {
+  margin-right: 65px;
+}
+.list:not(:first-child) .item:last-child {
+  margin: 0;
+  margin-right: 40px;
+}
+.list:not(:last-child) .item:first-child {
+  /* margin: 0; */
+  margin-left: 40px;
+}
+.list:first-child .item:first-child {
+  margin-left: 0;
+}
+.list:last-child .item:last-child {
+  margin-right: 0;
+}
+.list:last-child .item:first-child {
+  margin-left: 65px;
+}
+
+.arrowLeft {
+  transform: rotate(180deg);
+}
+
+.arrowLeft.NoActive {
+  display: none;
+}
+.arrowRight {
+  display: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 440px;
+}
+
+.window {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* .window:not(:last-child) {
+  padding-right: 40px;
+} */
+
+.allItemsContainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  transition: transform .4s ease;
+}
+
+.arrow {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

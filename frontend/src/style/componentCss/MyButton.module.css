@@ -1,0 +1,31 @@
+.more {
+  background: none;
+  border: none;
+  margin: 0;
+  display: flex;
+  margin-top: 37px;
+  justify-content: center;
+  color: #E3DEDE;
+  font-size: 25px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.moreMore {
+  margin: 0;
+  display: flex;
+  margin-top: 37px;
+  justify-content: center;
+  color: #E3DEDE;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.more1 {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  color: #E3DEDE;
+  font-size: 25px;
+  line-height: 30px;
+}

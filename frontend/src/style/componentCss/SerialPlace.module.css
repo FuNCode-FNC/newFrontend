@@ -1,0 +1,62 @@
+.containerSerial {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  background: url('../../../img/mesh-gradient-add-film.png') no-repeat center center / cover;
+}
+
+.title {
+  margin: 0;
+  margin-right: 70px;
+  font-size: 30px;
+  line-height: 36px;
+  color: #E3DEDE;
+}
+
+.blockSerial {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.blockSerial:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.list {
+  margin: 0;
+  display: flex;
+  list-style: none;
+  margin-right: 50px;
+}
+
+.elem:not(:last-child) {
+  margin-right: 50px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  font-size: 30px;
+  line-height: 36px;
+  color: #E3DEDE;
+  cursor: pointer;
+}
+
+.svg {
+  margin-right: 15px;
+  transform: translateX(-1px);
+}
+
+.addBtn {
+  /* width: 300px; */
+  padding: 0;
+  padding-right: 25px;
+  display: flex;
+  align-items: center;
+  background: none;
+  border: transparent;
+  border-radius: 21px;
+  background: #E3DEDE;
+  cursor: pointer;
+}

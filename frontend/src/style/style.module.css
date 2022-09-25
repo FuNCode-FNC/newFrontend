@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #0A1627;
+}
+
+.sectionOfset {
+  margin-bottom: 600px;
+}
+
+.novelties {
+  background-color: white;
+  padding: 26px 65px;
+  background-image: linear-gradient(180deg, rgba( 117,93,154, .8), rgba(227,38,54, .5)), url('../../img/mesh-gradient-nav.jpg');
+}

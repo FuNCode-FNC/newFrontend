@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 28px 30px;
+  background: #0A1627;
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+}
+
+.block {
+  display: flex;
+  align-items: center;
+}
+
+.block:not(:last-child) {
+  margin-right: auto;
+}
+
+.logo {
+  margin-right: 70px;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.input {
+  min-width: 400px;
+  min-height: 46px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  position: relative;
+}
+
+.item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.btnAccount {
+  background-size: 45px 45px;
+}
+
+.btnBell {
+  background-size: 40px 45px;
+}
+
+.btnAccount,
+.btnBell,
+.btnMenu {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.btnMenu {
+  color: #E3DEDE;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.search {
+  position: absolute;
+  top: 10px;
+  right: 22px;
+}
+
+/* Tool */
+
+.blockTool {
+  position: absolute;
+  top: 120%;
+  right: -10px;
+  z-index: 10;
+  min-width: 160px;
+  padding: 15px;
+  border-radius: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .3s ease, visibility .3s ease;
+  background: #E3DEDE;
+}
+
+.toolItem {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0A1627;
+}
+
+.toolItem:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.toolSign {
+  margin: 0;
+  padding-right: 15px;
+}
+/* 
+.blockTool:hover {
+  opacity: 1;
+  visibility: visible;
+} */
+
+.btnAccount:hover .blockTool {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btnAccount .blockTool::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  right: 22px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent transparent #E3DEDE transparent;
+}
+

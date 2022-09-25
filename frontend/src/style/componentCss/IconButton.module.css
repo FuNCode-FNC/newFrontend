@@ -1,0 +1,43 @@
+.btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: none;
+  border: none;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 220px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 6px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.blockBtn:hover .tooltip {
+  visibility: visible;
+  z-index: -1;
+}
+
+/* .blockBtn:hover div svg {
+  fill: black;
+  z-index: -1;
+} */
+
+/* .blockBtn:hover div svg path {
+  fill: white;
+  z-index: 100;
+} */
+
+/* #0A1627 */
+
+.blockBtn:not(:last-child) {
+  margin-bottom: 20px;
+}

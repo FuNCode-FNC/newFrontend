@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  background: #0A1627;
+  padding: 40px 70px;
+  align-items: center;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.account {
+  font-size: 20px;
+  line-height: 24px;
+  color: #E3DEDE;
+}
+
+.register {
+  color: #E3DEDE;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
